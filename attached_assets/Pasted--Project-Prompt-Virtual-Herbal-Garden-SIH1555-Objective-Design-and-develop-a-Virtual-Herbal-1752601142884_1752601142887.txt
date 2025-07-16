@@ -1,0 +1,93 @@
+🔮 Project Prompt: Virtual Herbal Garden (SIH1555)
+📌 Objective:
+Design and develop a Virtual Herbal Garden – an interactive, immersive, and educational web/mobile platform that allows users to explore medicinal plants used in traditional Indian systems of medicine (AYUSH: Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homeopathy) through 3D visualization, detailed data, multimedia, and personalized interaction.
+
+🧠 Problem Statement Summary:
+Traditional medicinal plant knowledge is not easily accessible to the common public. Physical herbal gardens are limited by geography. This project aims to bridge the gap by building a digital platform where users can interactively explore medicinal plants, understand their uses, origins, and health benefits, and take guided virtual tours categorized by treatment areas.
+
+🚀 Features to Implement:
+🌿 1. Plant Library
+Browse a collection of 50–100 medicinal plants.
+
+Each plant card includes:
+
+Botanical name & common name
+
+Habitat & region
+
+Medicinal uses (e.g., skin care, immunity)
+
+Cultivation method
+
+🔍 2. Search & Filter
+Search by name, benefit, region, or category (e.g., immunity boosters, digestion).
+
+Apply filters to sort plants based on symptoms or health focus.
+
+🧩 3. 3D/AR Interaction (Optional but Impressive)
+Display 3D models of herbs using Unity, WebGL, or libraries like Three.js.
+
+Rotate, zoom, and inspect plants interactively.
+
+Optionally integrate AR for mobile view.
+
+🎥 4. Multimedia Support
+High-quality images
+
+Embedded videos or YouTube links explaining plant preparation or usage
+
+Optional: Audio narration of each plant description (text-to-speech)
+
+📝 5. User Interaction
+Bookmark/favorite a plant
+
+Add personal notes
+
+Share plant info on WhatsApp/social media
+
+🧭 6. Virtual Tour Mode
+Curated paths like:
+
+“Top 10 Immunity Herbs”
+
+“Skin Healing Plants”
+
+“Digestive Aids Tour”
+
+Include guided descriptions, images, and narration.
+
+💡 Expected Outcome:
+A fully functional Virtual Herbal Garden that is:
+
+Informative for students & enthusiasts
+
+Accessible on mobile & web
+
+Interactive & engaging
+
+Designed with a user-friendly UI
+
+🛠️ Suggested Tech Stack:
+Component	Suggested Tools/Frameworks
+Frontend	React.js / Flutter / Vue.js
+Backend (Optional)	Node.js / Firebase / Supabase
+3D Visualization	Three.js / Unity WebGL / Babylon.js
+AR (Optional)	AR.js / Unity AR Foundation
+Database	Firebase / MongoDB / Supabase
+Hosting	Netlify / Vercel / GitHub Pages
+
+🧩 Bonus Add-ons:
+Text-to-speech for herbal descriptions
+
+QR code scan to access a specific plant info
+
+Integration with AYUSH Open APIs (if available)
+
+Hindi/Marathi regional language toggle
+
+🎯 Ideal For:
+Final-year college project
+
+Hackathons (like Smart India Hackathon)
+
+Resume showcase for UI/UX, WebDev, XR, or HealthTech roles

@@ -1,0 +1,64 @@
+Garden project by:
+
+Using your own 3D models instead of default ones
+
+Making the chatbot fully functional
+
+Ensuring all buttons are responsive and linked to actual features/pages
+
+Adding a "Back" button for navigation
+
+Displaying the 3D model in the main preview/plant detail section
+
+✅ Replit Prompt to Fix and Upgrade Virtual Herbal Garden Project
+🔧 Give this prompt in Replit AI or your Replit project description:
+
+Prompt:
+
+I am building a project called Virtual Herbal Garden. I need you to fix and improve the current version with the following changes:
+
+🔁 General Improvements:
+Make all buttons functional – Currently, only a few buttons are working. Ensure all buttons (like "Explore", "More Info", "Favorites", etc.) lead to proper pages or modals.
+
+Add a "Back" button on every sub-page (like Plant Detail, AR Viewer, etc.) to return to the main plant list or previous section.
+
+🌿 Plant Detail Page:
+When a user clicks on a plant card:
+
+Show detailed information about the plant (botanical name, uses, region, cultivation, etc.)
+
+Use a preview section to display the 3D model of the plant
+
+🧊 3D Model Integration:
+Instead of default 3D models or links, use my own 3D model files (e.g., .glb, .gltf, or .obj) that are uploaded in the public/models/ folder or hosted externally.
+
+Use Three.js or any supported viewer to render these models inside the plant detail section.
+
+Ensure the 3D viewer supports zoom, rotate, and pan interaction.
+
+Example file path:
+public/models/tulsi_model.glb → should load when user clicks on Tulsi.
+
+🤖 Chatbot Fix:
+The chatbot is currently non-functional. Fix it so that:
+
+It answers basic questions like “What are the benefits of neem?”, “Show me plants for immunity”, “How to grow tulsi?”
+
+You can use a simple rule-based model or integrate with OpenAI/Gemini if possible.
+
+Place the chatbot icon on the bottom-right and open it in a chat-style modal.
+
+Keep a default message or guide like “Ask me about any herbal plant!”
+
+📱 UI & Responsiveness:
+Make sure the entire web app is mobile-friendly (responsive design using CSS Flexbox or Grid).
+
+The 3D viewer and details section should adapt well on mobile screens.
+
+Bonus (optional if time):
+
+Add bookmarking/favorite feature per plant using LocalStorage or a temporary in-memory array.
+
+Include search/filter bar for plant categories (like digestion, immunity, etc.).
+
+Let me know if you'd like me to write the React code snippet for loading .glb 3D models, or design the file structure for this project.
